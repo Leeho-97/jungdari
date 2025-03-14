@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+    /* min-height: 100vh; */
+}
+
+.layout {
+    width: 1400px;
+
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh;  */
+
+}
+
+.mainC {
+    display: flex;
+    justify-content: center;
+    background-color:bisque;
+    width: auto;
+    height: 80vh;
+    flex-grow: 1; 
+
+}
+
+.footer {
+    background-color:beige;
+    height: 10vh;
+    position: relative;
+    /* bottom: 0px; */
+    transform: translateY(auto);
+}
+
+.full {
+    /* min-height: 100vh; */
+    height: 100vh;
+}
