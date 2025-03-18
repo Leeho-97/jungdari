@@ -10,19 +10,37 @@
 
 .layout {
     flex-grow: 1;
-    background-color:bisque;
-    /* height: 200px; */
     overflow: auto;
 }
 
 .footer {
-    background-color:beige;
     height: 10vh;
-    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.footerContent{
+    width: 1400px;
 }
 
 .mainC {
-    background-color :rgb(188, 227, 245) ;
     min-height: 100px;
-    /* height: 120vh; */
+}
+
+.footerOutline {
+    border-top : solid 1.5px #dddddd;
+}
+
+.footerPadding {
+    padding: 80px 20px;
+}
+
+.footerImg {
+    width: 9rem;
+    height: auto;
+}
+
+.footerLayout{
+    display: flex;
+    flex-direction: row;
 }

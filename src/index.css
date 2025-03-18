@@ -66,9 +66,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  font-weight: normal;
+  src: url("./fonts/Pretendard-Regular.ttf") format("truetype");
+}
+
+
 html,body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: "Pretendard-Regular";
+}
+
+p {
+  margin: 5px;
 }

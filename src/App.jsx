@@ -1,8 +1,10 @@
-import './reset.css';
 import Navbar from './components/Navbar';
-// import MainC from './components/MainC';
-import './Test.css'
 import Text from './components/Test'
+import Footer from './components/Footer';
+
+import './reset.css';
+import './Test.css'
+
 
 function App() {
 
@@ -16,7 +18,11 @@ function App() {
               <Text/>
             </div>
         </div>
-        <div className='footer'>풋터</div>
+        <div className='footer'>
+          <div className='footerContent'>
+            <Footer/>  
+          </div>
+        </div>
       </div>
     </div>
   )
