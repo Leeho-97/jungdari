@@ -4,6 +4,7 @@
 
 .container {
     display: flex;
+    /* align-items: center; */
     flex-direction: column;
     min-height: 100vh;
 }
@@ -11,7 +12,18 @@
 .layout {
     flex-grow: 1;
     overflow: auto;
+    display: flex;
+    justify-content: center;
 }
+
+.mainCon {
+    width: 1400px;
+}
+
+.mainSec {
+    display: flex;
+}
+
 
 .footer {
     height: 10vh;
@@ -23,24 +35,59 @@
     width: 1400px;
 }
 
-.mainC {
-    min-height: 100px;
-}
-
 .footerOutline {
     border-top : solid 1.5px #dddddd;
 }
 
 .footerPadding {
-    padding: 80px 20px;
+    padding: 50px 20px;
 }
 
 .footerImg {
-    width: 9rem;
+    width: 10rem;
     height: auto;
 }
 
-.footerLayout{
+.footerButtonLayout {
+    display: flex;             
+}
+
+.footerButton {
+    margin: 10px;
+    cursor: pointer;
+    &:hover {
+        color: #1d9eff;
+        border-bottom: 1px solid #1d9eff;
+    }
+}
+
+.footerTop{
     display: flex;
     flex-direction: row;
+    margin: 5px 0 30px 0 ;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.mypageTop {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 10px 0;
+    align-items: flex-end;
+    border-bottom: 1px solid #dddddd;
+    
+}
+
+.conlayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.span1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 15px 10px;
+}
+.span2 {
+    margin: 0 10px 15px 0;
 }
