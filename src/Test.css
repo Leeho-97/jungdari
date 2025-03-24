@@ -24,6 +24,10 @@
     display: flex;
 }
 
+.sidebarContents{
+    width: 200px;
+}
+
 
 .footer {
     height: 10vh;
@@ -90,4 +94,8 @@
 }
 .span2 {
     margin: 0 10px 15px 0;
+}
+
+tr th {
+    border: 1px solid #dddddd;
 }

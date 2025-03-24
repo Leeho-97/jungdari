@@ -25,23 +25,54 @@ function App() {
               </div>
             </div>
             <div className='mainSec'>
-              <div style={{backgroundColor : 'orange'}}>center2</div>
-              <div style={{backgroundColor : 'black'}}>center3</div>
+              <div className='sidebarContents'>
+                <Sidebar/> 
+              </div>
+
+              <div className='mainContents'>
+                <div style={{backgroundColor : '#9CFFC5'}}>center3</div>
+              </div>
+
+
+
+              {/* <table>
+                <tr>
+                  <th>신청일</th>
+                  <th>신청서 번호</th>
+                  <th>제품명</th>
+                  <th>진행현황</th>
+                  <th>신청내역</th>
+                  <th>견적서</th>
+                  <th>결제</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <th>2025-03-24</th>
+                  <th>P-6</th>
+                  <th>슬리퍼 여성 여름 슬리퍼 남성 홈 신발 홀 실내화</th>
+                  <th>국내배송 및 물품 수령</th>
+                  <th><button>확인</button></th>
+                  <th><button>견적보기</button></th>
+                  <th><button>결제정보</button></th>
+                  <th><button>취소하기</button></th>
+                </tr>
+                <tr>
+                  <th>2024-07-17</th>
+                  <th>P-12</th>
+                  <th>스우시 조던 하이 범고래</th>
+                  <th>결제완료</th>
+                  <th><button>확인</button></th>
+                  <th><button>견적보기</button></th>
+                  <th><button>결제정보</button></th>
+                  <th><button>취소하기</button></th>
+                </tr>
+              </table> */}
+
+
             </div>
 
           </div>
         
-            {/* <div>마이페이지</div>
-        
-
-          <div className='layout2'>
-            <div style={{width : "15%"}}>
-              <Sidebar/>
-            </div>
-            <div style={{width : 'auto'}}>
-              <Section/>
-            </div>
-          </div> */}
 
         </div>
 
