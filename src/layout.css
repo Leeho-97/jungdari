@@ -28,6 +28,11 @@
     width: 200px;
 }
 
+.mainContents{
+    /* background-color: bisque; */
+    width: 100%;
+}
+
 
 .footer {
     height: 10vh;
@@ -94,8 +99,4 @@
 }
 .span2 {
     margin: 0 10px 15px 0;
-}
-
-tr th {
-    border: 1px solid #dddddd;
 }

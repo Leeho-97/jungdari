@@ -1,4 +1,4 @@
-import '../Test.css'
+import '../layout.css'
 import logoB from '../imgs/j_logo2.svg'
 
 function Footer() {

@@ -38,6 +38,7 @@ justify-content :space-around;
 width : 40%;
 align-items : center;
 font-weight : bold;
+min-width : 300px
 `;
 
 const HCButton = styled.div`
@@ -54,6 +55,7 @@ justify-content :space-between;
 width : 20%;
 align-items : center;
 font-weight : 900;
+min-width :300px
 `;
 
 
